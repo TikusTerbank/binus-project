@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header-main">
+
+  <div class="header-left">
+    <div class="menu-36 " id="openSidebar">
+      <i class="fas fa-bars"></i>
+    </div>
+    
+
+    <div>
+      <a href="./index.html"><img class="header-logo" src="homelogo/website-logo.png" alt="logo"></a>
+    </div>
+    <a href="./about.html" class="text-42"><span class="text-black">About Us</span></a>
+  </div>
+  
+  <a href="./index.html" class="header-title"><span class="text-black">Christian Wijaya</span></a>
+
+  <div class="header-right">
+    <div class="search-38">
+    <i class="fas fa-search"></i>
+    </div>
+
+    <div class="shopping-cart-34">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </div>
+
+</header>
+
+<nav id="sidebar" class="sidebar">
+  <button id="closeSidebar" class="close-btn">✕</button>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./product.html">Products</a></li>
+    <li><a href="./details.html">Product Details</a></li>
+    <li><a href="./register.html">Event</a></li>
+    <li><a href="./about.html">About Us</a></li>
+  </ul>
+</nav>
+
+<div id="overlay" class="overlay"></div>
+
+
+<div class="form-container">
+    <div class="form-box">
+        <h2 class="form-title">Model Registration Form</h2>
+        <form action="#" method="post" class="form-main">
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname" class="input-box"><br><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" class="input-box" placeholder="john.doe@gmail.com"><br><br>
+
+            <label for="birthdate">Birth Date</label><br>
+            <input type="date" id="birthdate" name="birthdate" class="input-box"><br><br>
+            
+            <div class="gender-container">
+                <div class="male-container">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                </div>
+                <div class="female-container">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+                </div>
+            </div>
+
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label><br>
+
+            <input type="checkbox" id="privacy" name="privacy">
+            <label for="privacy">I accept the <a href="#">Privacy Policy</a></label><br><br>
+
+            <div class="buttons">
+                <input type="submit" value="Register" class="submit-btn">
+                <input type="reset" value="Clear All" class="clear-btn">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<footer class="footer-main">
+  <p class="footer-text"><span class="text-white"> Rue Saint-Honoré, Luxe Capital, Alam Sutera, Tangerang, Indonesia</span></p>
+  <p class="footer-text">Landline: 360-999-100</p>
+  <p class="footer-text">support@chrisw.com</p>
+  <div class="instagram-29">
+    <i class="fi fi-brands-instagram"></i>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

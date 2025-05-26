@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header-main">
+
+  <div class="header-left">
+    <div class="menu-36 " id="openSidebar">
+      <i class="fas fa-bars"></i>
+    </div>
+    
+
+    <div>
+      <a href="./index.html"><img class="header-logo" src="homelogo/website-logo.png" alt="logo"></a>
+    </div>
+    <a href="./about.html" class="text-42"><span class="text-black">About Us</span></a>
+  </div>
+  
+  <a href="./index.html" class="header-title"><span class="text-black">Christian Wijaya</span></a>
+
+  <div class="header-right">
+    <div class="search-38">
+    <i class="fas fa-search"></i>
+    </div>
+
+    <div class="shopping-cart-34">
+      <i class="fas fa-shopping-cart"></i>
+    </div>
+  </div>
+
+</header>
+
+<nav id="sidebar" class="sidebar">
+  <button id="closeSidebar" class="close-btn">✕</button>
+  <ul>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./product.html">Products</a></li>
+    <li><a href="./details.html">Product Details</a></li>
+    <li><a href="./register.html">Event</a></li>
+    <li><a href="./about.html">About Us</a></li>
+  </ul>
+</nav>
+
+<div id="overlay" class="overlay"></div>
+
+<div class="productss active">
+    <div>
+        <img class="product-images imaged" src="homelogo/shoess.png" alt="Velcro Edge Sneakers" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Velcro Edge Sneakers</h2>
+            <p class="price"><em>$2050</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Engineered with bold, architectural soles and a crisp silhouette, this sneaker defines futuristic minimalism.
+            A statement piece that anchors any contemporary wardrobe with authority.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Lightweight premium leather upper</li>
+            <li>Signature ribbed rubber sole with sculpted grip</li>
+            <li>Velcro closure for easy wear</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product2s.png" alt="Azura Strap Sandals" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Azura Strap Sandals</h2>
+            <p class="price"><em>$990</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Crafted for precision and simplicity, this sandal delivers structure with every step. 
+            Dual-toned straps and ergonomic form establish it as a staple in warm-season footwear.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Dual wide straps for firm hold</li>
+            <li>Contrasting woven texture</li>
+            <li>Water-resistant sole for day-to-night wear</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product3s.png" alt="Pavé Jet Pet Carrier" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Pavé Jet Pet Carrier</h2>
+            <p class="price"><em>$1700</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            An embodiment of high design in pet mobility. Premium leather, reinforced stitching, 
+            and secure closures elevate this from utility to fashion-forward essential.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Reinforced canvas with genuine leather trim</li>
+            <li>Mesh windows for ventilation</li>
+            <li>Airline cabin-approved dimensions</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product4s.png" alt="Lilac Leather Top Handle" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Lilac Leather Top Handle</h2>
+            <p class="price"><em>$950</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Distinct in its hue and iconic in form, this top handle bag combines 
+            structured elegance with a touch of the avant-garde. Its presence alone commands attention.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Full-grain leather exterior</li>
+            <li>Dual handle with removable crossbody strap</li>
+            <li>Zip and buckle accents</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product5s.png" alt="Ivory Signature Hoodie" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Ivory Signature Hoodie</h2>
+            <p class="price"><em>$1200</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Constructed with exceptional softness and tonal embroidery, this hoodie elevates casualwear to 
+            collector status. A balance of restraint and luxury rarely achieved in loungewear.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Heavyweight cotton-blend fleece</li>
+            <li>Raised signature logo at chest</li>
+            <li>Ribbed cuffs and hem</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product6s.png" alt="Midnight Quilted Jacket" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Midnight Quilted Jacket</h2>
+            <p class="price"><em>$1300</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Architectural quilting, cropped structure, and matte finish converge in this 
+            outerwear piece. Engineered for both statement and function, it defines cold-weather dressing.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Diamond-stitched quilt pattern</li>
+            <li>Elastic drawcord hem</li>
+            <li>Snap-button closure</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product7s.png" alt="Amber Lens Shades" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Amber Lens Shades</h2>
+            <p class="price"><em>$820</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            A bold, squared silhouette paired with amber lenses creates visual clarity and distinction. 
+            More than eyewear — a symbol of modern refinement.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Matte black acetate frame</li>
+            <li>UV-protective amber-tinted lenses</li>
+            <li>Unisex angular silhouette</li> 
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product8s.png" alt="Sandstone Cap" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Sandstone Cap</h2>
+            <p class="price"><em>$420</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Minimalist embroidery on premium brushed cotton establishes this cap as a quiet symbol of 
+            taste. Every stitch reflects disciplined design.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Washed cotton twill fabric</li>
+            <li>Adjustable strap at back</li>
+            <li>Side embroidered emblem</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+    <div>
+        <img class="product-images imaged" src="homelogo/product9s.png" alt="Floral Ink Shorts" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Floral Ink Shorts</h2>
+            <p class="price"><em>$990</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            With moody floral prints and precision tailoring, this short bridges the line between 
+            ease and edge. A cornerstone for bold, seasonal styling.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>All-over floral ink print</li>
+            <li>Button and zip closure</li> 
+            <li>Relaxed tailored fit</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="productss">
+<div>
+        <img class="product-images imaged" src="homelogo/product10s.png" alt="Champagne Dial Timepiece" width="300">
+    </div>
+    <div class="description-box">
+        <!-- Product Title and Price -->
+        <div class="product-header">
+            <h2>Champagne Dial Timepiece</h2>
+            <p class="price"><em>$5000</em></p>
+        </div>
+
+        <!-- Description -->
+        <p class="desc-product1">
+            Defined by its polished silver strap and luminous gold dial, this watch captures the essence of timeless prestige. 
+            Every detail radiates permanence and status.
+        </p>
+
+        <!-- Details List -->
+        <p class="desc-product1"><strong>Details:</strong></p>
+        <ul>
+            <li>Sunburst champagne face with silver-tone hour markers</li>
+            <li>Water-resistant up to 50m</li>
+            <li>Brushed stainless steel band with clasp</li>
+        </ul>
+
+        <!-- Size and Quantity -->
+        <div class="product-options">
+            <div class="size-product1">
+                <label class="desc-product1" for="size"><strong>Size</strong></label><br>
+                <input type="text" id="size" name="size" placeholder="EU 40">
+            </div>
+
+            <div>
+                <label class="desc-product1" for="quantity"><strong>Quantity</strong></label><br>
+                <button type="button" class="add-minus-btn">−</button>
+                <input type="text" id="quantity" name="quantity" placeholder="1">
+                <button type="button" class="add-minus-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="product-buttons">
+            <button class="desc-product1 cartadd" type="button">🛒 Add to Cart</button>
+            <button class="desc-product1 order-btn" type="button">Order Now</button>
+        </div>
+    </div>
+  </div>
+
+<footer class="footer-main">
+  <p class="footer-text"><span class="text-white"> Rue Saint-Honoré, Luxe Capital, Alam Sutera, Tangerang, Indonesia</span></p>
+  <p class="footer-text">Landline: 360-999-100</p>
+  <p class="footer-text">support@chrisw.com</p>
+  <div class="instagram-29">
+    <i class="fi fi-brands-instagram"></i>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
